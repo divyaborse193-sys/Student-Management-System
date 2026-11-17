@@ -13,7 +13,6 @@ The application uses React for the frontend, Spring Boot for the backend, and My
 - JavaScript
 - HTML
 - CSS
-- Axios (if used for API requests)
 
 ### Backend
 - Java
@@ -27,7 +26,7 @@ The application uses React for the frontend, Spring Boot for the backend, and My
 
 ### Tools
 - Visual Studio Code
-- IntelliJ IDEA / Eclipse (as applicable)
+- Eclipse 
 - Postman
 - Git and GitHub
 
@@ -42,7 +41,6 @@ The application uses React for the frontend, Spring Boot for the backend, and My
 
 ## Project Structure
 
-```text
 Student-Management-System/
 │
 ├── frontend/
@@ -53,7 +51,7 @@ Student-Management-System/
 │
 ├── .gitignore
 └── README.md
-```
+
 
 ## Backend Setup
 
