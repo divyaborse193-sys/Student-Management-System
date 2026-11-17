@@ -71,6 +71,8 @@ body {
 .stats-card h2 {
   color: #6d28d9;
   font-size: 28px;
+  border: 1px solid #4321d8;
+   border-radius: 10px;
 }
 
 /* Cards */
@@ -79,7 +81,7 @@ body {
   padding: 28px;
   border-radius: 14px;
   margin-bottom: 25px;
-  border: 1px solid #ede9fe;
+  border: 1px solid #4321d8;
   box-shadow: 0 4px 18px rgba(91, 33, 182, 0.06);
 }
 
@@ -124,6 +126,7 @@ form {
 .form-group input:focus {
   border-color: #8b5cf6;
   box-shadow: 0 0 0 3px #ede9fe;
+  color: #292044;
 }
 
 /* Buttons */
@@ -135,6 +138,7 @@ button {
   font-weight: 600;
   font-size: 14px;
   transition: 0.2s;
+   box-shadow: 0 0 0 1px #0b0a0f;
 }
 
 .primary-btn {
