@@ -1,0 +1,271 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f5f3ff;
+  color: #292044;
+}
+
+.container {
+  width: 90%;
+  max-width: 1150px;
+  margin: 40px auto;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #5b21b6, #8b5cf6);
+  color: white;
+  padding: 32px;
+  border-radius: 16px;
+  margin-bottom: 25px;
+  box-shadow: 0 6px 20px rgba(91, 33, 182, 0.18);
+}
+
+.header h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.header p {
+  color: #ede9fe;
+}
+
+.header-icon {
+  font-size: 55px;
+}
+
+/* Student Count */
+.stats-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  background: white;
+  padding: 24px;
+  border-radius: 14px;
+  margin-bottom: 25px;
+  border: 1px solid #ede9fe;
+  box-shadow: 0 4px 15px rgba(91, 33, 182, 0.05);
+}
+
+.stats-icon {
+  background: #ede9fe;
+  padding: 16px;
+  border-radius: 12px;
+  font-size: 28px;
+}
+
+.stats-card p {
+  color: #7c6f99;
+  margin-bottom: 5px;
+}
+
+.stats-card h2 {
+  color: #6d28d9;
+  font-size: 28px;
+}
+
+/* Cards */
+.card {
+  background: white;
+  padding: 28px;
+  border-radius: 14px;
+  margin-bottom: 25px;
+  border: 1px solid #ede9fe;
+  box-shadow: 0 4px 18px rgba(91, 33, 182, 0.06);
+}
+
+.card h2 {
+  font-size: 21px;
+  margin-bottom: 22px;
+  color: #4c1d95;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  align-items: end;
+}
+
+.form-group {
+  flex: 1;
+  min-width: 200px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 9px;
+  color: #51436e;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #ddd6fe;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  background: #faf9ff;
+  transition: 0.2s;
+}
+
+.form-group input:focus {
+  border-color: #8b5cf6;
+  box-shadow: 0 0 0 3px #ede9fe;
+}
+
+/* Buttons */
+button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.primary-btn {
+  background: #7c3aed;
+  color: white;
+}
+
+.primary-btn:hover {
+  background: #6d28d9;
+}
+
+.cancel-btn {
+  background: #ede9fe;
+  color: #5b21b6;
+}
+
+.cancel-btn:hover {
+  background: #ddd6fe;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+/* Table */
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 550px;
+}
+
+th {
+  background: #ede9fe;
+  color: #5b21b6;
+  text-align: left;
+  padding: 16px;
+  font-size: 14px;
+}
+
+td {
+  padding: 16px;
+  border-bottom: 1px solid #f0eafa;
+  font-size: 14px;
+}
+
+tbody tr:hover {
+  background: #faf8ff;
+}
+
+.actions {
+  white-space: nowrap;
+}
+
+/* Edit and Delete */
+.edit-btn {
+  background: #dbeafe;
+  color: #1d4ed8;
+  margin-right: 8px;
+}
+
+.edit-btn:hover {
+  background: #bfdbfe;
+}
+
+.delete-btn {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.delete-btn:hover {
+  background: #fecaca;
+}
+
+/* Messages */
+.message,
+.empty {
+  color: #7c6f99;
+  padding: 20px;
+  text-align: center;
+}
+
+.error {
+  color: #dc2626;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  color: #7c6f99;
+  padding: 18px;
+  font-size: 13px;
+}
+
+/* Mobile */
+@media (max-width: 650px) {
+  .container {
+    width: 95%;
+    margin: 20px auto;
+  }
+
+  .header {
+    padding: 22px;
+  }
+
+  .header h1 {
+    font-size: 21px;
+  }
+
+  .header-icon {
+    font-size: 35px;
+  }
+
+  .card {
+    padding: 18px;
+  }
+
+  form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .form-group {
+    width: 100%;
+  }
+
+  .form-buttons {
+    flex-wrap: wrap;
+  }
+}

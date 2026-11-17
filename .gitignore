@@ -1,0 +1,30 @@
+
+# React
+node_modules/
+frontend/newReact/node_modules/
+frontend/newReact/dist/
+
+# Spring Boot
+target/
+backend/demo/target/
+*.class
+
+# IDE files
+.idea/
+.vscode/
+.project
+.classpath
+.settings/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Windows files
+Thumbs.db
+.DS_Store
+
+
+# Protect local database credentials
+backend/demo/src/main/resources/application.properties
